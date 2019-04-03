@@ -1,6 +1,7 @@
 import App, { Container } from "next/app";
 import { compareAsc } from "date-fns";
 import Page from "../components/Page";
+import Header from "../components/Header";
 
 class MyApp extends App {
   render() {
